@@ -1,0 +1,68 @@
+#homeBody {
+	background-color: #d9b3ff;
+}
+
+#ContactBody {
+	background-color: #99ffff;
+}
+
+#GamesBody {
+	background-color: #b3ffb3;	
+}
+
+#AboutBody {
+	background-color: #ffccf2;
+}
+
+
+/* Menu Stylings */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.menuAnchor {
+	display: block;
+	width: 200px;
+	color: black;
+	margin-right:10px;
+	font-size:1.5em;
+	text-decoration: none; /*removes the underlines from each <a> */
+}
+
+.menuListItem {
+	display: inline;
+	float: left;
+	border-style: solid;
+}
+/*End of menu styling*/
+
+h1 {
+	color: black;
+}
+
+p {
+	color: black;
+	font-size:50px;
+}
+
+img {
+	border-style: solid;
+	border-width: 5px;
+}
+
+#profilePic {
+	width: 350px;
+	height: auto;
+}
+
+#alertButton {
+	background-color:pink;
+}
+
+.button1 { 
+  color: black;
+  border: 2px solid #4CAF50; /* black  */
+}
