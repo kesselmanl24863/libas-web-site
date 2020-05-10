@@ -1,20 +1,26 @@
-#homeBody {
-	background-color: #d9b3ff;
-}
-
-#ContactBody {
-	background-color: #99ffff;
-}
-
-#GamesBody {
-	background-color: #b3ffb3;	
-}
-
-#AboutBody {
-	background-color: #ffccf2;
+:root{
+	--blueDarkColor: #10263B;
+	--blueLightColor: #F7F6E5;
+	--blueColor2: #3A568D;
+	--blueColor3: #C0CDDB;
+	--blueColor4: #668EBB;
 }
 
 
+header {
+	background-image: linear-gradient(
+				var(--blueColor2),
+				var(--blueColor3),
+				var(--blueColor2),
+				var(--blueColor3),
+				var(--blueColor4));
+	height: 100px;
+}
+
+body {
+	background-color: var(--blueColor2);
+	color: var(--blueLightColor);
+}
 /* Menu Stylings */
 ul {
 	list-style-type: none;
@@ -41,11 +47,6 @@ ul {
 
 h1 {
 	color: black;
-}
-
-p {
-	color: black;
-	font-size:50px;
 }
 
 img {
