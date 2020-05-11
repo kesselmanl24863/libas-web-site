@@ -54,14 +54,20 @@ img {
 	border-width: 5px;
 }
 
-#profilePic {
-	width: 350px;
+#libaProfilePic {
+	width: 250px;
 	height: auto;
 }
- #profilePic2 {
-     width:350px;
-	 height: auto;
+
+#insideofdesktop {
+	width:300px;
+	height: auto;
 }
+
+
+
+
+
 #alertButton {
 	background-color:pink;
 }
@@ -69,4 +75,8 @@ img {
 .button1 { 
   color: black;
   border: 2px solid #4CAF50; /* black  */
+}
+
+.imageRight {
+	float: right;
 }
