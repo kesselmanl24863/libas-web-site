@@ -6,7 +6,6 @@
 	--blueColor4: #668EBB;
 }
 
-
 header {
 	background-image: linear-gradient(
 				var(--blueColor2),
@@ -22,13 +21,12 @@ body {
 	color: var(--blueLightColor);
 }
 /* Menu Stylings */
-ul {
+header ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
-
 .menuAnchor {
 	display: block;
 	width: 200px;
@@ -45,8 +43,13 @@ ul {
 }
 /*End of menu styling*/
 
+
 h1 {
 	color: black;
+}
+
+h3 {
+    text-decoration: underline;
 }
 
 img {
@@ -59,13 +62,19 @@ img {
 	height: auto;
 }
 
-#insideofdesktop {
-	width:300px;
+/*Styles for home page.*/
+.covidPictures {
+	width:40%;
 	height: auto;
+    float: left;
+    margin: 20px;
 }
 
-
-
+.imageHolder {
+    margin: 30px;
+    float: left;
+}
+/*End of styles for first page*/
 
 
 #alertButton {
