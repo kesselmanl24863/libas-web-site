@@ -15,9 +15,35 @@
 		</header>
 
 		<h1> The Game page!!</h1>
-		<button id="alertButton" onclick="showAlert();">My Cool button</button>	
-		<p>
-			Games coming soon!!! 
-		</p>
+
+		<h2>Madlib Fun!</h2>
+		<form>
+			<label for="noun1">Noun</label>
+			<input type="text" id="noun1" name="noun1"><br>
+
+			<label for="noun2">Noun</label>
+			<input type="text" id="noun2" name="noun2"><br>
+
+			<label for ="verb1">Verb</label>
+			<input type="text" id="verb1" name="verb1"><br>
+
+			<label for ="adjective1">Adjective</label>
+			<input type="text" id="adjective1" name="adjective1"><br>
+
+			<label for ="verb2">Verb (past tense)</label>
+			<input type="text" id="verb2" name="verb2"><br>
+
+			<label for ="pronoun1">Pronoun</label>
+			<input type="text" id="pronoun1" name="pronoun1"><br>
+
+			<label for ="pronoun2">Pronoun</label>
+			<input type="text" id="pronoun2" name="pronoun2"><br>
+
+			<input type="button" value="Submit" onclick="testWritingToLog();">
+		</form>
+
+		<br/>
+		<div id="madLibResult"></div>
+
 	</body>
 </html>
